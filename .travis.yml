@@ -5,7 +5,7 @@ deploy:
     branch: azure_storage
   on:
     all_branches: true
-  # account-name:
-  # account-key:
-  # local-dir: 'BUILD'
-  # dot_match: true
+  account-name: satosampleapp4
+  account-key: $KEY
+  local-dir: 'BUILD'
+  dot_match: true
