@@ -1,0 +1,11 @@
+deploy:
+  provider: AzureStorage
+  edge:
+    source: sato-s/dpl
+    branch: azure_storage
+  on:
+    all_branches: true
+  # account-name:
+  # account-key:
+  # local-dir: 'BUILD'
+  # dot_match: true
