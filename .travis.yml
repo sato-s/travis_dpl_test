@@ -1,7 +1,8 @@
 script:
     - /bin/true
+
 deploy:
-  provider: AzureStorage
+  provider: azure_storage
   edge:
     source: sato-s/dpl
     branch: azure_storage
