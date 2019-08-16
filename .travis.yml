@@ -1,3 +1,4 @@
+language: ruby
 deploy:
   provider: azure_storage
   edge:
