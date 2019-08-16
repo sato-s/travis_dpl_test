@@ -1,4 +1,4 @@
-language: ruby
+install: true
 deploy:
   provider: azure_storage
   edge:
