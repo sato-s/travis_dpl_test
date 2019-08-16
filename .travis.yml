@@ -1,4 +1,5 @@
-install: true
+script:
+- echo "skipping tests"
 deploy:
   provider: azure_storage
   edge:
