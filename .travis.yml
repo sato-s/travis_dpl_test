@@ -7,7 +7,7 @@ deploy:
     branch: master
   on:
     all_branches: true
-  account-name: satodpltesting
-  account-key: $KEY
+  account: satodpltesting
+  access-key: $KEY
   local-dir: 'BUILD'
   dot_match: true
