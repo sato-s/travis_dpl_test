@@ -4,11 +4,10 @@ script:
 deploy:
   provider: azure_storage
   edge:
-    source: sato-s/dpl
-    branch: azure_storage
+    branch: master
   on:
     all_branches: true
-  account-name: satosampleapp4
+  account-name: satodpltesting
   account-key: $KEY
   local-dir: 'BUILD'
   dot_match: true
