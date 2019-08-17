@@ -3,7 +3,7 @@ script:
 deploy:
   provider: azure_storage
   edge:
-    branch: master
+    branch: sf-port-970
   on:
     all_branches: true
   account: satodpltesting
